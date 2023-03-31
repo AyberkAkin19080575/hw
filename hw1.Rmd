@@ -1,0 +1,74 @@
+---
+title: "Homework 1"
+author: "Ayberk AKIN 19080575"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+Turkey have a  __high inflation__ 
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+Turkey have a  _high inflation_
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+Turkey have a  **_high inflation_**
+
+**Question 4** With Markdown write an unordered list with three items.
+
+*credit card
+*deposity
+*loans
+
+**Question 5** With Markdown write an ordered list with three items.
+1.credit card
+2.deposity
+3.loans
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+[treadingview!](https://tr.tradingview.com/)
+
+**Question 7** With Markdown add a cat picture.
+
+[Cat!](https://cdn.pixabay.com/photo/2020/11/15/18/31/cat-5746771_960_720.png)
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+Here is some text in your Rmarkdown document.
+
+```{r}
+# Inserting a code chunk
+x <- 5
+y <- 7
+z <- x + y
+z
+```
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+Here is some text in your R Markdown document.
+
+$$
+e^{i\pi} + 1 = 0
+$$
+
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+# Calculating 3 + 4
+3 + 4
+```
